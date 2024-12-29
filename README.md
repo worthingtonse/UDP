@@ -143,44 +143,13 @@ This is an attempt to make UDP work better by adding a few tweaks.
   <tr>
     <td class="tg-b3sw" colspan="2">0</td>
     <td class="tg-b3sw" colspan="2">0</td>
-    <td class="tg-cmwg" colspan="32">Source Address</td>
+    <td class="tg-cmwg" colspan="16">Source Port</td>
+    <td class="tg-cmwg" colspan="16">Destination Port</td>
   </tr>
   <tr>
     <td class="tg-b3sw" colspan="2">4</td>
     <td class="tg-b3sw" colspan="2">32</td>
-    <td class="tg-cmwg" colspan="32">Destination Address</td>
-  </tr>
-  <tr>
-    <td class="tg-b3sw" colspan="2">8</td>
-    <td class="tg-b3sw" colspan="2">64</td>
-    <td class="tg-cmwg" colspan="4">Packet ID</td>
-    <td class="tg-cmwg" colspan="4">Total Packets</td>
-    <td class="tg-bolj" colspan="8">Protocol</td>
-    <td class="tg-bolj" colspan="16">UDP Length</td>
-  </tr>
-  <tr>
-    <td class="tg-b3sw" colspan="2">12</td>
-    <td class="tg-b3sw" colspan="2">96</td>
-    <td class="tg-uqo3" colspan="16">Source Port</td>
-    <td class="tg-yj5y" colspan="16">Destination Port</td>
-  </tr>
-  <tr>
-    <td class="tg-b3sw" colspan="2">16</td>
-    <td class="tg-b3sw" colspan="2">128</td>
-    <td class="tg-uqo3" colspan="16">Length</td>
-    <td class="tg-vswx" colspan="16">Checksum</td>
-  </tr>
-  <tr>
-    <td class="tg-b3sw" colspan="2">20</td>
-    <td class="tg-b3sw" colspan="2">160</td>
-    <td class="tg-uqo3" colspan="32" rowspan="3">Data</td>
-  </tr>
-  <tr>
-    <td class="tg-b3sw" colspan="2">24</td>
-    <td class="tg-b3sw" colspan="2">192</td>
-  </tr>
-  <tr>
-    <td class="tg-b3sw" colspan="2">...</td>
-    <td class="tg-b3sw" colspan="2">...</td>
+    <td class="tg-cmwg" colspan="16">Length</td>
+    <td class="tg-cmwg" colspan="16">CheckSum</td>
   </tr>
 </tbody></table>
