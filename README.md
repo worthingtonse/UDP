@@ -143,7 +143,7 @@ This is an attempt to make UDP work better by adding a few tweaks.
   <tr>
     <td class="tg-b3sw" colspan="2">0</td>
     <td class="tg-b3sw" colspan="2">0</td>
-    <td class="tg-cmwg" colspan="16">Port</td>
+    <td class="tg-cmwg" colspan="16">Port (Sending and Receiving)</td>
     <td class="tg-cmwg" colspan="8">Packet's Sequence Number</td>
     <td class="tg-cmwg" colspan="8">Totoal Packets in Sequence</td>
   </tr>
@@ -151,6 +151,7 @@ This is an attempt to make UDP work better by adding a few tweaks.
     <td class="tg-b3sw" colspan="2">4</td>
     <td class="tg-b3sw" colspan="2">32</td>
     <td class="tg-cmwg" colspan="16">Length</td>
-    <td class="tg-cmwg" colspan="16">Checksum</td>
+    <td class="tg-cmwg" colspan="8">Sequence ID</td>
+     <td class="tg-cmwg" colspan="8">Flags</td>
   </tr>
 </tbody></table>
