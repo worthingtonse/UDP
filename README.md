@@ -143,13 +143,14 @@ This is an attempt to make UDP work better by adding a few tweaks.
   <tr>
     <td class="tg-b3sw" colspan="2">0</td>
     <td class="tg-b3sw" colspan="2">0</td>
-    <td class="tg-cmwg" colspan="16">Source Port</td>
-    <td class="tg-cmwg" colspan="16">Destination Port</td>
+    <td class="tg-cmwg" colspan="16">Port</td>
+    <td class="tg-cmwg" colspan="8">Packet's Sequence Number</td>
+    <td class="tg-cmwg" colspan="8">Totoal Packets in Sequence</td>
   </tr>
   <tr>
     <td class="tg-b3sw" colspan="2">4</td>
     <td class="tg-b3sw" colspan="2">32</td>
     <td class="tg-cmwg" colspan="16">Length</td>
-    <td class="tg-cmwg" colspan="16">CheckSum</td>
+    <td class="tg-cmwg" colspan="16">Checksum</td>
   </tr>
 </tbody></table>
